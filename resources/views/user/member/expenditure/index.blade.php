@@ -98,18 +98,18 @@
                                     class="d-flex align-items-center">
                                     <div id="section-button-export" class="mx-2">
                                         <x-base.button.button id="button-export" type="button"
-                                            className="btn-light icon icon-left px-3" text="Export" icon="bi bi-upload"
+                                            className="btn-light icon icon-left px-3" text="Export" iconTagI="bi bi-upload"
                                             :iconMargin=true />
                                     </div>
                                     <div id="section-button-download" class="mx-2">
                                         <x-base.button.button id="button-download" type="button"
-                                            className="btn-light icon icon-left px-3" text="Download" icon="bi bi-download"
-                                            :iconMargin=true />
+                                            className="btn-light icon icon-left px-3" text="Download"
+                                            iconTagI="bi bi-download" :iconMargin=true />
                                     </div>
                                     <div id="section-button-delete" class="mx-2">
                                         <x-base.button.button id="button-delete" type="button"
                                             className="btn-outline-danger icon icon-left px-3" text="Delete"
-                                            icon="bi bi-trash" :iconMargin=true />
+                                            iconTagI="bi bi-trash" :iconMargin=true />
                                     </div>
                                 </div>
                             </div>
@@ -124,18 +124,19 @@
                                                 @method('GET')
                                                 <x-base.input.input type="text" placeholder="Search here" />
                                                 <x-base.button.button type="submit" className="form-control-icon"
-                                                    icon="bi bi-search" />
+                                                    iconTagI="bi bi-search" />
                                             </form>
                                         </div>
                                     </div>
                                     <div id="section-button-filter" class="mx-2">
                                         <x-base.button.button id="button-filter" type="button"
                                             className="btn-outline-secondary icon icon-left px-3" text="Filter"
-                                            icon="bi bi-funnel" :iconMargin=true />
+                                            iconTagI="bi bi-funnel" :iconMargin=true />
                                     </div>
                                     <div id="section-button-add-new" class="mx-2">
                                         <x-base.button.button id="button-add-new" type="button"
-                                            className="btn-secondary icon icon-left" text="Add new" icon="bi bi-plus-lg" />
+                                            className="btn-secondary icon icon-left" text="Add new"
+                                            iconTagI="bi bi-plus-lg" />
                                     </div>
                                 </div>
                             </div>

@@ -7300,6 +7300,18 @@ textarea.form-control-lg {
   border-width: 5px !important;
 }
 
+.w-5 {
+  width: 5% !important;
+}
+
+.w-7 {
+  width: 7% !important;
+}
+
+.w-10 {
+  width: 10% !important;
+}
+
 .w-25 {
   width: 25% !important;
 }
@@ -7308,8 +7320,20 @@ textarea.form-control-lg {
   width: 50% !important;
 }
 
+.w-60 {
+  width: 60% !important;
+}
+
+.w-70 {
+  width: 70% !important;
+}
+
 .w-75 {
   width: 75% !important;
+}
+
+.w-80 {
+  width: 80% !important;
 }
 
 .w-100 {
@@ -8294,6 +8318,14 @@ textarea.form-control-lg {
 
 .rounded-3 {
   border-radius: 0.3rem !important;
+}
+
+.rounded-4 {
+  border-radius: 0.4rem !important;
+}
+
+.rounded-5 {
+  border-radius: 0.5rem !important;
 }
 
 .rounded-circle {
@@ -20091,6 +20123,66 @@ a {
   vertical-align: middle;
 }
 
+.pointer {
+  cursor: pointer !important;
+}
+
+.z-minus-1 {
+  z-index: -1;
+}
+
+.z-minus-2 {
+  z-index: -2;
+}
+
+.z-minus-3 {
+  z-index: -3;
+}
+
+.z-minus-4 {
+  z-index: -4;
+}
+
+.z-minus-5 {
+  z-index: -5;
+}
+
 .z-1 {
   z-index: 1;
+}
+
+.z-2 {
+  z-index: 2;
+}
+
+.z-3 {
+  z-index: 3;
+}
+
+.z-4 {
+  z-index: 4;
+}
+
+.z-5 {
+  z-index: 5;
+}
+
+.z-6 {
+  z-index: 6;
+}
+
+.z-7 {
+  z-index: 7;
+}
+
+.z-8 {
+  z-index: 8;
+}
+
+.z-9 {
+  z-index: 9;
+}
+
+.z-10 {
+  z-index: 10;
 }

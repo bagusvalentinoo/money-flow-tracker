@@ -32,11 +32,11 @@
                         <div class="d-flex justify-content-center">
                             <div class="mx-1">
                                 <x-base.button.button type="button" className="btn-outline-secondary icon icon-left"
-                                    text="Detail" icon="bi bi-eye" />
+                                    text="Detail" iconTagI="bi bi-eye" />
                             </div>
                             <div class="mx-1">
                                 <x-base.button.button type="button" className="btn-primary icon icon-left"
-                                    text="Edit" icon="bi bi-pencil-square" />
+                                    text="Edit" iconTagI="bi bi-pencil-square" />
                             </div>
                         </div>
                     </td>
@@ -62,11 +62,11 @@
                         <div class="mx-1">
                             <x-base.button.button type="button"
                                 className="btn-outline-dark icon icon-left px-3 text-center" text="Detail"
-                                icon="bi bi-eye" :iconMargin=true />
+                                iconTagI="bi bi-eye" :iconMargin=true />
                         </div>
                         <div class="mx-1">
                             <x-base.button.button type="button" className="btn-primary icon icon-left px-3 text-center"
-                                text="Edit" icon="bi bi-pencil-square" :iconMargin=true />
+                                text="Edit" iconTagI="bi bi-pencil-square" :iconMargin=true />
                         </div>
                     </div>
                 </td>
