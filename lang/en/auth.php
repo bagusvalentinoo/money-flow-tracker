@@ -18,6 +18,7 @@ return [
 
     'sign_up_invalid' => 'Registration failed. Please make sure all information is entered correctly.',
     'sign_up_success' => 'Congratulations! You have successfully registered.',
+    'sign_up_password_not_match' => 'Passwords do not match. Please make sure your passwords match before signing up.',
 
     'sign_out_success' => 'You have successfully signed out. See you next time!',
     'sign_out_invalid' => 'Sign-out failed. Please try again or contact support for assistance.',

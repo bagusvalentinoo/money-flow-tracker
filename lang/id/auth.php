@@ -18,6 +18,7 @@ return [
 
     'sign_up_invalid' => 'Pendaftaran gagal. Pastikan semua informasi telah diisi dengan benar.',
     'sign_up_success' => 'Selamat! Anda berhasil terdaftar.',
+    'sign_up_password_not_match' => 'Password tidak cocok. Pastikan password yang Anda masukkan sesuai sebelum mendaftar.',
 
     'sign_out_success' => 'Anda telah berhasil keluar. Sampai jumpa lain waktu!',
     'sign_out_invalid' => 'Keluar gagal. Mohon coba lagi atau hubungi dukungan untuk bantuan.',

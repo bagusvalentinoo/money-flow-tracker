@@ -50,6 +50,6 @@ class SignInServiceImpl implements SignInService
      */
     public function signIn(Request $request, User $user): bool|Authenticatable
     {
-        return Auth::loginUsingId($user->id, boolval($request->input('remember_me')));
+        return Auth::loginUsingId($user->id, boolval($request->input('remember_me') ?? false));
     }
 }
