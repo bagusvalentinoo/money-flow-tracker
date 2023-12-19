@@ -24,6 +24,7 @@ Route::group(['prefix' => 'auth'], function () {
 
     Route::group(['prefix' => 'sign-up'], function () {
         Route::get('/', [SignUpController::class, 'signUpPage'])->name('web.auth.sign_up.sign_up_page');
+        Route::post('/', [SignUpController::class, 'signUp'])->name('web.auth.sign_up');
     });
 
     Route::group(['prefix' => 'forgot-password'], function () {
