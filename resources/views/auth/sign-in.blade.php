@@ -55,7 +55,7 @@
         <div id="sign-in-right"
             class="col-lg-5 col-md-6 col-sm-12 d-flex justify-content-center align-items-center pe-0">
             <div class="w-80 px-5 py-3">
-                <form action="#" method="POST">
+                <form action="{{ route('web.auth.sign_in') }}" method="POST">
                     @csrf
                     @method('POST')
                     <div class="mt-3 mb-5 text-center">
@@ -77,7 +77,7 @@
                         </div>
                     </div>
                     <div class="mt-1 mb-3 text-end">
-                        <a href="#">
+                        <a href="{{ route('web.auth.forgot_password.forgot_password_page') }}">
                             Forgot Password?
                         </a>
                     </div>
@@ -85,6 +85,13 @@
                         <x-base.checkbox.checkbox id="remember_me" name="remember_me" />
                         <label for="remember_me">Remember Me</label>
                     </div>
+                    @if (Session::has('error'))
+                        <div class="my-3">
+                            <span class="text-danger">
+                                {{ Session::get('error') }}
+                            </span>
+                        </div>
+                    @endif
                     <div class="my-3">
                         <x-base.button.button className="btn-primary rounded-5 w-100 font-bold py-2" type="submit"
                             text="Sign In" />

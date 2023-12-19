@@ -37,7 +37,7 @@
                             <hr class="dropdown-divider">
                         </li>
                         <li>
-                            <form action="#" method="POST">
+                            <form action="{{ route('web.general.auth.logout') }}" method="POST">
                                 @csrf
                                 @method('POST')
                                 <button class="dropdown-item" type="submit">
