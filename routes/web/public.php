@@ -19,6 +19,7 @@ use Illuminate\Support\Facades\Route;
 Route::group(['prefix' => 'auth'], function () {
     Route::group(['prefix' => 'sign-in'], function () {
         Route::get('/', [SignInController::class, 'signInPage'])->name('web.auth.sign_in.sign_in_page');
+        Route::post('/', [SignInController::class, 'signIn'])->name('web.auth.sign_in');
     });
 
     Route::group(['prefix' => 'sign-up'], function () {

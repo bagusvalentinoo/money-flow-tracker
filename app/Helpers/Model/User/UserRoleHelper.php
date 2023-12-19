@@ -17,4 +17,18 @@ class UserRoleHelper
             'name' => 'Member'
         ]
     ];
+
+    /**
+     * User Roles Home Prefix
+     *
+     * @var array|array[]
+     */
+    public static array $userRolesHomePrefix = [
+        'admin' => [
+            'name' => '/admin/dashboard'
+        ],
+        'member' => [
+            'name' => '/dashboard'
+        ]
+    ];
 }

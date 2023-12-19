@@ -13,7 +13,12 @@ return [
     |
     */
 
-    'failed' => 'Data yang dimasukkan tidak cocok dengan yang terdaftar.',
-    'password' => 'Kata sandi yang dimasukkan salah.',
-    'throttle' => 'Terlalu banyak percobaan masuk. Silakan coba lagi dalam :seconds detik.',
+    'sign_in_invalid' => 'Email atau password tidak valid. Mohon periksa kembali dan coba lagi.',
+    'sign_in_success' => 'Selamat datang! Anda telah berhasil masuk.',
+
+    'sign_up_invalid' => 'Pendaftaran gagal. Pastikan semua informasi telah diisi dengan benar.',
+    'sign_up_success' => 'Selamat! Anda berhasil terdaftar.',
+
+    'sign_out_success' => 'Anda telah berhasil keluar. Sampai jumpa lain waktu!',
+    'sign_out_invalid' => 'Keluar gagal. Mohon coba lagi atau hubungi dukungan untuk bantuan.',
 ];

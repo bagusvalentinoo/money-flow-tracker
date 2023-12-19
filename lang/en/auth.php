@@ -13,8 +13,12 @@ return [
     |
     */
 
-    'failed' => 'These credentials do not match our records.',
-    'password' => 'The provided password is incorrect.',
-    'throttle' => 'Too many login attempts. Please try again in :seconds seconds.',
+    'sign_in_invalid' => 'Invalid credentials. Please check your email and password and try again.',
+    'sign_in_success' => 'Welcome! You have successfully signed in.',
 
+    'sign_up_invalid' => 'Registration failed. Please make sure all information is entered correctly.',
+    'sign_up_success' => 'Congratulations! You have successfully registered.',
+
+    'sign_out_success' => 'You have successfully signed out. See you next time!',
+    'sign_out_invalid' => 'Sign-out failed. Please try again or contact support for assistance.',
 ];

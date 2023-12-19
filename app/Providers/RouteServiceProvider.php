@@ -2,7 +2,6 @@
 
 namespace App\Providers;
 
-use App\Helpers\Http\RouteHelper;
 use Illuminate\Cache\RateLimiting\Limit;
 use Illuminate\Foundation\Support\Providers\RouteServiceProvider as ServiceProvider;
 use Illuminate\Http\Request;
@@ -58,11 +57,15 @@ class RouteServiceProvider extends ServiceProvider
             ->group(base_path('routes/web.php'));
 
         // Public Routes
-        Route::middleware(['web'])
+        Route::middleware(['web', 'guest'])
             ->group(base_path('routes/web/public.php'));
 
+        // General Routes
+        Route::middleware(['web', 'auth'])
+            ->group(base_path('routes/web/general.php'));
+
         // Member Routes
-        Route::middleware(['web'])
+        Route::middleware(['web', 'auth', 'role:Member'])
             ->group(base_path('routes/web/member.php'));
     }
 
